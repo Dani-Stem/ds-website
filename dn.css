@@ -1,0 +1,98 @@
+html{
+	width:100%;
+	background-color: #d9d9d9;
+}
+.banner{
+	width: 100%;
+	text-align: center;
+	color: #FFFFFF;
+	background-color: #000000;
+	background-image: url("C:/Users/dannn/Pictures/test.png");
+	min-height: 50vw;
+	z-index: 0;
+	
+
+  /* Full height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 60vw 30vw;
+
+}
+
+.banner, h1{
+	background-color:#000000;
+	width:100%;
+	margin-top: 5vw;
+	animation: fadeIn ease 10s;
+  -webkit-animation: fadeIn ease 5s;
+  -moz-animation: fadeIn ease 5s;
+  -o-animation: fadeIn ease 5s;
+  -ms-animation: fadeIn ease 5s;
+
+}
+.about{
+	margin-top:2%;
+	width:100%;
+	text-align:center;
+	height:100vw
+
+}
+
+.contact{
+	text-align:center;
+}
+.contactButton{
+	background-color:#FF0000;
+	width: 11%;
+	padding: .5%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 15px;
+	text-align:center;
+}
+
+a{
+	color: #000000;
+}
+ img.product{
+	width:20%;
+	animation: fadeIn ease 10s;
+  -webkit-animation: fadeIn ease 5s;
+  -moz-animation: fadeIn ease 5s;
+  -o-animation: fadeIn ease 5s;
+  -ms-animation: fadeIn ease 5s;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1vw;
+ }
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+
